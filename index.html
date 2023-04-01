@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="text-align:center;">
+      <img class="logo" src="./img/Cool logo.png" alt="WakeID Logo" height="70" width="325">
+      <h2 class="big-text">Enter your WakeID credentials to Log In.</h2>
+      <!-- <form class="login-form" action="/" method="POST"> -->
+        <select class="user-type" name="user-type" id="user-type">
+          <option value="">Select User Type</option>
+          <option value="student">Student</option>
+          <option value="staff">Staff</option>
+        </select>
+        <br><br>
+        <input class="inputs" type="text" id="username" name="username" placeholder="Username"><br><br>
+        <input class="inputs" type="password" id="password" name="password" placeholder="Password"><br><br>
+        <div id="auth-failed" style="display: none; color: red;">Authentication Failed</div>
+        <br><br>
+        <button class="btns" type="submit" id="login-button" onclick=login()>Login</button>
+        <br>
+        <button class="btns" type="submit">Scan QR code (K-2 Only)</button>
+      <!-- </form> -->
+      <br>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

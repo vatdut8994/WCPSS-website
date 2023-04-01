@@ -1,0 +1,58 @@
+body{
+    background-color: #0e1526;
+}
+
+.logo {
+    margin: 50px 0;
+}
+
+.big-text{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+  
+.user-type{
+    background-color: #2d3d5c;
+    width: 400px;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 10px;
+    text-align: left;
+    border: none;
+    color: silver;
+    margin-bottom: 30px;
+}
+
+.inputs{
+    background-color: #2d3d5c;
+    font-size: large;
+    border-radius: 10px;
+    text-align: left;
+    border: none;
+    color: white;
+    width: 425px;
+    height: 30px;
+    padding: 5px 20px;
+}
+
+.btns{
+    background-color: rgb(14, 14, 43);
+    border: none;
+    box-shadow: 0 0 10px #35425e;
+    padding: 10px 100px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    color: rgb(171, 171, 171);
+    font-size: large;
+    width: 450px;
+    cursor: pointer;
+}
+
+.btns:hover{
+    color: white;
+    box-shadow: 0 0 0 25px #35425e inset;
+    transition: 0.5s;
+}
